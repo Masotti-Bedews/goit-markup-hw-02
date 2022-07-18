@@ -1,0 +1,226 @@
+:root {
+    --primary-text-color:#2F303A;
+    --tittle-text-color:#212121;
+    --general-text-color:#757575;
+    --accent-color:#2196F3;
+    --primary-bg-color:#F5F5F5;
+    --secondary-bg-color:#F5F4FA;
+    --white-color:#FFFFFF;
+    --footer-text-color:rgba(255, 255, 255, 0.6);
+    --secondary-button-colar:#188CE8;
+    --logo-dark-color:#000000;
+}
+
+
+
+
+body {
+    font-family: Roboto , sans-serif;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+}
+
+/* logo */
+.logo-web {
+    color: var(--accent-color);
+}
+.logo-studio {
+    color: var(--logo-dark-color);
+}
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif; 
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+}
+/* Header */
+.header {
+    background-color:var(--white-color);
+}
+
+.nav-part a {
+    color: var(--tittle-text-color);
+}
+.nav-part a:hover ,
+.nav-part a:focus {
+    color:var(--accent-color) ;
+}
+.nav-list  {
+    list-style: none;
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+}
+ .nav-list .link{
+    text-decoration: none;
+ }
+
+.nav-list .link.current {
+    color: var(--accent-color);
+    
+}
+
+.auth-part a {
+    text-decoration: none;
+    color: var(--general-text-color);
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+}
+.auth-part a:hover ,
+.auth-part a:focus {
+    color: var(--accent-color);
+}
+.auth-part {
+    list-style: none;
+} 
+
+/* hero */
+.hero {
+     background-color: var( --primary-text-color);
+}
+.hero-tittle {
+    color:var(--white-color);
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+
+
+/* section */
+.section-tittle {
+    color: var(--tittle-text-color);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+}
+.features {
+    background:var(--primary-bg-color);
+    list-style: none;
+}
+
+.features .text {
+    color: var(--general-text-color);
+    font-size: 14px;
+     line-height: 1.71;
+}
+.section-tittle-special{
+    color: var(--tittle-text-color);
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+}
+.band-tittle{
+    color: var(--tittle-text-color);
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17px;
+        text-align: center;
+}
+
+.img-list {
+    list-style: none;
+}
+
+.section-item {
+    color: var(--tittle-text-color);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+}
+
+.band {
+    background-color: var(--secondary-bg-color);
+}
+.band-list {
+    list-style: none;
+}
+.band .text {
+    color: var(--general-text-color);
+    font-size: 16px;
+        line-height: 1.19;
+}
+
+/* footer */
+footer {
+    
+        background-color: var(--primary-text-color);
+}
+.footer-items {
+    list-style: none;
+}
+.footer-items .item {
+    color: var(--white-color);
+    font-size: 14px;
+        line-height: 1.71;
+}
+.footer-items .items {
+    color: var(--footer-text-color);
+    font-size: 14px;
+        line-height: 1.71;
+}
+
+/* button */
+.button {
+    color:var(--white-color);
+    cursor: pointer;
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.8;
+        letter-spacing: 0.06em;
+}
+.hero .button:hover ,
+.hero .button:focus {
+    background-color:var(--secondary-button-colar);
+}
+
+/* _________________________portfolio__________________________________*/
+.header{
+    background-color: var(--white-color);
+}
+.general {
+    background-color: var(--primary-bg-color);
+}
+
+.holder .btn-list{
+    list-style: none;
+}
+ .holder .button {
+    color: var(--tittle-text-color);
+    background-color:var(--secondary-bg-color);
+    border-color:var(--secondary-bg-color);
+   
+}
+
+ .holder .button:hover,
+ .holder .button:focus {
+    color:var(--accent-color);
+}
+
+
+.box .list {
+    list-style: none;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+}
+.box .section {
+    color: var(--tittle-text-color);
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+}
+.under-section {
+    color: var(--general-text-color);
+    font-size: 16px;
+        line-height: 1.88;
+}
