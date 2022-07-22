@@ -102,8 +102,10 @@ body {
         line-height: 1.14;
         text-transform: uppercase;
 }
-.features {
-    background:var(--primary-bg-color);
+ 
+.section-features ,
+.section-special {
+    background:var(--white-color);
 }
 
 .features .text {
@@ -134,7 +136,7 @@ body {
 }
 
 .team {
-    background-color: var(--white-color);
+    background-color:var(--secondary-bg-color);
 }
 
 .team .team-profession {
@@ -157,22 +159,22 @@ footer {
     font-style: normal;
 }
 
-.footer-items .item:hover ,
-.footer-items .item:focus {
+.footer-items .link:hover ,
+.footer-items .link:focus {
     color: var(--accent-color);
 }
 
-.footer-items .items:hover,
-.footer-items .items:focus {
+.footer-items .link it:hover,
+.footer-items .link it:focus {
     color: var(--accent-color);
 }
 
-.footer-items .item {
+.footer-items .link {
     color: var(--white-color);
     font-size: 14px;
         line-height: 1.71;
 }
-.footer-items .items {
+.footer-items .link it {
     color: var(--footer-text-color);
     font-size: 14px;
         line-height: 1.71;
@@ -184,11 +186,11 @@ footer {
     color:var(--white-color);
     cursor: pointer;
     background-color: var(--accent-color);
-    border-color: var(--accent-color);
-    font-weight: 700;
+    /* border-color: var(--accent-color); */
+    font-weight: 500;
         font-size: 16px;
         line-height: 1.8;
-        letter-spacing: 0.06em;
+      
 }
 .hero .button:hover ,
 .hero .button:focus {
@@ -209,14 +211,18 @@ main {
     background-color:var(--secondary-bg-color);
     border-color:var(--secondary-bg-color);
     border-radius: 4px;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
    
 }
 
- .holder .button-portfolio:hover,
- .holder .button-portfolio:focus {
+ .holder .button-portfolio.current:hover,
+ .holder .button-portfolio.current:focus {
     background-color:var(--accent-color);
     color: var(--white-color);
 }
+ 
 
 
 .box-list {
